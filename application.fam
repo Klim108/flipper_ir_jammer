@@ -1,0 +1,13 @@
+App(
+    appid="ir_jammer",
+    name="IR Jammer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_jammer_app_main",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Infrared",
+    fap_author="Ki213",
+    fap_weburl="",
+    fap_version="0.1",
+    fap_description="Floods the IR spectrum with pseudo-random noise to disrupt nearby IR remotes, like Bruce's IR jammer on M5Stick.",
+)
